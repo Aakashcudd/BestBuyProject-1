@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.Tc_01_Navigatetowebpage"/>
+      <class name="testcases.Tc_08_Menu_Brand_Select"/>
+      <class name="testcases.Tc_03_CreateaccountpageTest"/>
+      <class name="testcases.Tc_06_Search_additem"/>
+      <class name="testcases.Tc_05_Homepage"/>
+      <class name="testcases.Tc_04_Siginpage"/>
+      <class name="testcases.Tc_07_Menu_shop_by_Dept"/>
+      <class name="testcases.Tc_09_Checkout_fillingpage"/>
+      <class name="testcases.Tc_02_Verify_LinkBroken"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
